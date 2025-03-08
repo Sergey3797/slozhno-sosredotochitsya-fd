@@ -1,1 +1,1 @@
-https://github.com/Sergey3797/posmotri-v-okno-fd
+https://github.com/Sergey3797/slozhno-sosredotochitsya-fd
