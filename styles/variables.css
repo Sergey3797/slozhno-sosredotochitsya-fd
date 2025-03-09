@@ -4,7 +4,7 @@
 */
 
 :root {
-  --background: url(../images/cover-image-dark.png);
+  --background-image: url(../images/cover-image-dark.png);
   --font-family: "IBM Plex Mono", sans-serif;
   --font-size: 18px;
   --font-weight-title: 700;
@@ -26,8 +26,22 @@
   --padding-right: 10px;
   --padding-top: 10px;
   --padding-bottom: 10px;
-  --top:10px;
-  --bottom: 10px;
+  --top-decoration:10px;
+  --bottom-decoration: 10px;
 }
+
+@media (width >= 768px) {
+  :root {
+    --margin-top: 60px;
+    --margin-bottom: 80px;
+    --padding-left: 20px;
+    --padding-right: 20px;
+    --padding-top: 20px;
+    --padding-bottom: 20px;
+    --top-decoration:20px;
+    --bottom-decoration: 20px;
+    
+  }
+}  
 
 
