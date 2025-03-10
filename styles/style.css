@@ -26,7 +26,7 @@
   min-width: 52px;
   min-height: 26px;
   top: var( --top-decoration, 10px);
-  display: flex;
+  display: var(--rec-display);
   justify-self: flex-end;
   align-items: center;
   gap: 10px;
@@ -245,7 +245,6 @@
   }
 
   .section__main {
-    display: grid;
     grid-template-columns:  1fr 2fr;
   }
 
